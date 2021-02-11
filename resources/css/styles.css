@@ -18,10 +18,13 @@ a:focus {
     text-decoration: none;
     color: lightgray;
 }
+
 .dark {
     color: darkgray;
 }
+
 /* --- HEADER --- */
+
 header {
     position: fixed;
     top: 0;
@@ -167,7 +170,7 @@ nav a {
 #mission {
     display: block;
     position: relative;
-    top: 150px;
+    top: 85px;
     max-width: 1024px;
     margin: 0 auto;
 }
@@ -380,7 +383,7 @@ footer {
     cursor: pointer; 
     font-size: 72px; 
     color: lightgray;
-    text-shadow: 1px 1px 2px rgba(211, 211, 211, 0.8rem)  ;
+    text-shadow: 1px 1px 2px rgba(211, 211, 211, 0.8)  ;
   }
   
   #myBtn:hover {
