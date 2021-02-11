@@ -36,6 +36,15 @@ header .company-name {
 nav {
     margin-left: auto;
 }
+nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+#last-nav-link {
+    border-right: none;
+}
 
 @media only screen and (max-width: 768px) {
     nav {
@@ -259,12 +268,16 @@ nav {
     margin: 0 auto;
     text-align: center;
 }
+#contact h3, h4 {
+    text-decoration: underline;
+}
 
 @media only screen and (max-width: 768px) {
     #contact {
         display: block;
         position: relative;
         top: 80px;
+        font-size: 0.8rem;
     }
 }
 
@@ -292,7 +305,8 @@ footer {
         display: block;
         position: relative;
         top: 80px;
-        padding: 0 10px;
+        padding: 10px;
+        font-size: 0.8rem;
     }
 
 }
