@@ -202,6 +202,8 @@ nav a {
     width: 100%;
     height: auto;
     grid-area: image;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 .mission-card p {
     grid-area: caption;
@@ -385,7 +387,7 @@ footer {
 
 }
 
-#myBtn {
+#topBtn {
     display: none; 
     position: fixed;
     bottom: 20px; 
@@ -394,9 +396,13 @@ footer {
     cursor: pointer; 
     font-size: 72px; 
     color: lightgray;
-    text-shadow: 1px 1px 2px rgba(211, 211, 211, 0.8)  ;
-  }
+    text-shadow: 1px 1px 2px rgba(211, 211, 211, 0.8);
+    transition: color ease-in-out 0.2s;
+    -moz-transition: color ease-in-out 0.2s;
+    -webkit-transition: color ease-in-out 0.2s;
+    animation: fadein 2s;
+''  }
   
-  #myBtn:hover {
+  #topBtn:hover {
     color: #555;
   }
